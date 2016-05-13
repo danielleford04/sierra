@@ -1,0 +1,243 @@
+/* body */
+
+body {
+	background: #FFFFFF;
+	border: 1px solid #707070;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container div {
+	border: 1px solid #707070;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #A5BCFF;
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+}
+
+h2 {
+	font-family: 'Cinzel', serif;
+	margin: 0;
+/*	text-align: left;
+	padding-left: 50px;*/
+}
+
+#fb {
+	height: 40px;
+}
+
+/*-----header-----*/
+
+.header {
+	text-align: center;
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 3.5em;
+	margin: 15px 0 0 0;
+}
+
+.header a {
+	color: black;
+}
+
+.header p {
+	font-family: sans-serif;
+	font-style: oblique;
+	/*color: #707070;*/
+	font-weight: 200;
+	letter-spacing: 2px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+/* ----------- Nav --------*/
+
+/*original*/
+.nav {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background-color: #f3fafe;
+	width: 99%;
+	letter-spacing: 1px;
+	padding: 1px;
+}
+
+.nav ul {
+	text-align: center;
+	margin: 10px 0 10px 0;
+	padding-left: 0;
+
+}
+
+.nav ul li {
+	display: inline-block;
+	padding: 0 40px 0 40px;
+	text-transform: uppercase;
+	}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #707070;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* divs version*/
+/*.nav {
+	padding: 0 30px 0 30px;
+    height: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.menuitem {
+    width: auto;
+    padding: 15px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    text-transform: uppercase;
+}
+
+.menuitem a {
+	    color: #707070;
+}
+
+.stretcher {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}*/
+
+
+
+/* -------- Footer -----------*/
+
+footer {
+/*	background-color: black;
+	color: white;*/
+	text-align: center;
+	font-family: sans-serif;
+	padding: 5px;
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+
+
+
+}
+
+footer p {
+	margin: 0;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 5px;
+  padding-bottom: 5rem;
+  min-height: 100%;
+}
+
+
+/* ------- home --------*/
+
+/*.hiatus img {
+	width: 300px;
+	margin-bottom: 10px;
+}*/
+
+iframe {
+	margin: 10px;
+}
+
+/* ------ about ------*/
+
+.about img {
+	height: 232px;
+	margin: 0 20px 10px 20px;
+}
+
+/* ------- teachers ------*/
+
+
+.teacher img {
+	float: right;
+	margin: 20px;
+}
+
+.bold {
+	font-style: oblique;
+}
+
+/* sitting groups */
+
+.groups p {
+	text-align: left;
+}
+
+.groups img {
+	width: 200px;
+}
+
+.retreats img {
+	width: 300px;
+}
+
+.retreats p {
+	text-align: left;
+}
+
+/* -------- responsive ---------*/
+
+@media screen and (max-width: 800px) {
+	.container {
+		width: 98%;
+	}
+
+	.about img {
+		max-width: 90%;
+	}
+
+	iframe {
+		max-width: 95%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+.nav ul li {
+	width: 50%;
+	padding: 0;
+}
+}
